@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DavidVickers/NodeJsPlurasight/issues"
   },
-  "homepage": "https://github.com/DavidVickers/NodeJsPlurasight#readme"
+  "homepage": "https://github.com/DavidVickers/NodeJsPlurasight#readme",
+  "dependencies": {
+    "express": "4.16.4"
+  }
 }
