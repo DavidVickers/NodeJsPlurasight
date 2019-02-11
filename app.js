@@ -7,7 +7,7 @@ var path = require('path');
 var app = express();
 
 app.use(morgan('tiny'));
-app.use(express.static(path.join(__dirname, '/views/public/')));
+app.use(express.static(path.join(__dirname, '/Public/')));
 app.get('/',function(req, res){
     res.sendFile(path.join(__dirname, '/views/index.html'));
 })
