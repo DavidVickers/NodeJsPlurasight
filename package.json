@@ -4,7 +4,8 @@
   "description": "Node js course pluralsight",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=app node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,11 +21,15 @@
     "bootstrap": "4.2.1",
     "chalk": "2.4.2",
     "debug": "2.6.6",
-    "eslint": "5.13.0",
     "express": "4.15.2",
     "jquery": "3.3.1",
     "morgan": "1.9.1",
     "popper": "1.0.1",
     "popper.js": "1.14.7"
+  },
+  "devDependencies": {
+    "eslint": "5.13.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.16.0"
   }
 }
